@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <link rel="stylesheet" type="text/css" href="./src/style.css">
+</head>
+<body class="font-sans overflow-hidden">
+    <div class="main bg-slate-800 w-full h-screen p-5">
+        <div class="blobs w-full h-screen">
+            
+        </div>
+        <div class="absolute bottom-5 transition-all left-[50%] translate-x-[-50%]">
+            <div class="bg-slate-200 p-4 rounded shadow-xl flex justify-between">
+                <div class="flex items-center mr-5">
+                    <i class="btn btn-record fa-solid fa-circle text-[2.25rem] text-red-500 drop-shadow-xl cursor-pointer"></i>
+                    <i class="btn btn-stop fa-solid fa-stop text-[2.25rem] text-red-500 drop-shadow-xl cursor-pointer hidden"></i>
+                </div>
+                
+                <div class="flex items-center">
+                    <i class="btn-play fa-solid fa-play text-[2.25rem] text-green-500 p-shadow-xl cursor-pointer"></i>
+                </div>
+            </div>
+            <div class="timer p-2 mt-5 ml-[1.8rem]">
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="./src/main.js"></script>
+</body>
+</html>

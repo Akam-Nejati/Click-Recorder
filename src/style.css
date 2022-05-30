@@ -1,0 +1,19 @@
+@keyframes opacity{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+.opacity-class {
+    animation: opacity .5s;
+    animation-fill-mode: forwards !important;
+}
+
+body{
+    overflow:  auto !important;
+    animation: alternate
+}
