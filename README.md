@@ -1,6 +1,4 @@
 # about project
-این یک پروژه کوچک برای ضبط و نمایش کلیک های شما در صفحه مرورگر است
-
 This is a small project to record and show your clicks on the browser screen
 
 # preview
